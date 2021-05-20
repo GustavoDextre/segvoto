@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery('#myTable, table.display').dataTable({"paging":true,"ordering":false,"info":false,"searching":false,"lengthChange":false,"scrollX":true});});
