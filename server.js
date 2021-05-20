@@ -166,8 +166,8 @@ app.post('/votar', function(req, res) {
   });
 */
 app.get('*', (req,res) =>{
-    //res.sendFile(path.join(__dirname, 'public', 'index.html'));
-    res.send("No existe esta ruta");
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+    //res.send("No existe esta ruta");
 });
 
 app.listen(PORT, ()=>{
